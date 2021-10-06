@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Montserrat Alternates';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    
+   background: url(../img/Bg.png);
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+align-items: center;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+#menu ul li a {
+color: #ffffff;
+font-size: 25px;
+text-decoration: none;
+border-bottom: 5px solid transparent ;
+transition: .4s;
+
+}
+#menu ul li a :hover{
+    color: rgb(205, 138, 50);
+    border-bottom: 5px solid #ffffff;
+    
+} 
+
+#hero {
+    text-align: center;
+    padding-top: 100px;
+}
+#hero h1 {
+ color: #0cf0e5;
+    ;
+font-size: 50px;
+margin: 0%;
+transition: none;
+}
+
+#hero h3 {
+    color: #ffffff;
+font-size: 25px;
+margin: 0%;
+transition: none;
+}
+
+#hero button {
+background-color:#e8f00c00 ;
+font-size: 30px;
+border-radius:  10px;
+margin-top: 80px;
+padding: 10px 15px;
+border: none;
+cursor: pointer;
+transition: .4s;
+}
+
+/* INICIO SECCION MI TRABAJO */
+
+.hero .carousel-inner .carousel-item .carousel-caption{
+    bottom: 45%;
+}
+.hero .carousel-inner .carousel-item .carousel-caption h5{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.hero .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 30px;
+}
+
+.hero .carousel-indicators{
+    bottom: 40%;
+}
+
+
+/* INICIO SECCION HABILIDADES */
+
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+#Habilidades h2{
+   font-size: 40px; 
+   color:#ffffff;
+}
+
+#Habilidades .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Habilidades .row .item-habilidades{
+    position: relative;
+    transition: .4s;
+    padding-bottom: 100px;
+}
+
+#Habilidades .row .item-Habilidades img{
+    transition: .4s;
+    
+}
+
+#habilidades .row .item-Habilidades:hover img{
+    border-radius: 50%;
+    
+}
+
+#Habilidades .row .item-Habilidades:hover h3{
+    color: #ffffff;
+}
+
+#Habilidades .row .item-Destinos:hover{
+    box-shadow: 0 0px 9px 0px #e2dada;
+}
+
+#Habilidades .row .item-Habilidades h3{
+    position: absolute;
+    top: 250px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+}
+
+/* FIN SECCION HABILIDADES */
+
+#intereses h2{
+    font-size: 40px; 
+    color:#ffffff;
+ }
+ 
+ #intereses .row{
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ #intereses .row .item-intereses{
+     position: relative;
+     transition: .4s;
+     padding-bottom: 100px;
+ }
+ 
+ #intereses.row .item-intereses img{
+     transition: .4s;
+     
+ }
+ 
+ #intereses .row .item-intereses:hover img{
+     border-radius: 50%;
+     
+ }
+ 
+ #intereses .row .item-intereses:hover h3{
+     color: #ffffff;
+ }
+ 
+ #intereses .row .item-intereses:hover{
+     box-shadow: 0 0px 9px 0px #e2dada;
+ }
+ 
+ #intereses .row .item-intereses h3{
+     position: absolute;
+     top: 250px;
+     color: #ffffff;
+     left: 0;
+     right: 0;
+     font-size: 30px;
+ }
+
+/* INICIO SECCION CONTACTO */
+#Contacto{
+    
+    padding: 30px 0px 120px;
+    text-align: center;
+
+}
+
+#Contacto h2 {
+    font-size: 50px;
+
+}
+
+#Contacto p {
+    font-size: 24px;
+    margin-bottom: 60px;
+
+}
+
+#Contacto .row {
+    margin-top: 25px;
+
+}
+
+#Contacto .row .campof {
+    width: 300px;
+    padding: 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+
+}
+
+#Contacto .row select{
+    width: 320px !important;
+    padding: 12px;
+    margin: 0 15px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+
+}
+
+#Contacto form button {
+    padding: 8px 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    background: #000000;
+    color: #e2dada;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#Contacto form{
+    margin: 0 auto;
+    max-width: 700px;
+}
+footer{
+
+    
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    padding: 40px 0;
+}
+footer p {
+    margin-bottom: 15px !important;
+}
